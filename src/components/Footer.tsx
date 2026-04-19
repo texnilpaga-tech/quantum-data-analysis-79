@@ -63,6 +63,9 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
           <p>© 2025 Столярная мастерская. Все права защищены.</p>
+          <a href="https://webmaster.yandex.ru/siteinfo/?site=https://lestnitsa-ru.ru" target="_blank" rel="noopener noreferrer">
+            <img width="88" height="31" alt="" style={{borderRadius: '8px'}} src="https://yandex.ru/cycounter?https://lestnitsa-ru.ru&theme=light&lang=ru" />
+          </a>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
