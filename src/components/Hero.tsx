@@ -147,6 +147,14 @@ export function Hero() {
             <br />
             <span className="text-orange-200">{"с душой"}</span>
           </h1>
+          <div className="flex justify-center mt-8">
+            <a
+              href="tel:+79042872903"
+              className="px-8 py-3 bg-white text-gray-900 font-medium rounded-full hover:bg-orange-200 transition-colors text-base tracking-wide"
+            >
+              Связаться
+            </a>
+          </div>
         </div>
       </div>
 
